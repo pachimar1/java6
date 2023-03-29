@@ -49,6 +49,7 @@ public class StatsService {
         }
         return count;
     }
+
     public int CountAboveAverageSales(double[] sales) {
         double averageSales = calculateAverageSales(sales);
         int count = 0;
